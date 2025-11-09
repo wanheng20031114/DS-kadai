@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-# coding: utf-8
-"""
-課題: 武蔵野大学Webサイトトップページにアクセスし、
-同一ドメインの全リンクを辿り、全ページのURLと<title>を辞書型変数に格納する。
-key: URL
-value: <title>で囲まれた文字列
-辞書型変数を print() で表示する
-"""
-
 import requests
 from bs4 import BeautifulSoup, Comment
 from urllib.parse import urljoin, urlparse
